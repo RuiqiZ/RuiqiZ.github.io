@@ -54,20 +54,9 @@ about_content: | # this will include new lines to allow paragraphs
     - Tables
     - <a href="google.com">Links</a>
     - Images
-  
-| Programming Languages    | Technical Services | Testing/ Frameworks |
-| ----------- | ----------- |
-| Java											| Git       				| JUnit |
-| Python | RESTful API       | Mockito |
-| JavaScript    |    NGINX     | SpringBoot |
-|  SQL   |  Node.js      | CircleCI |
-| C/C++ | AWS | |
-| Ruby | | |
 
 # Projects Section
 projects_title: MoneySaving App #(Use this to override about projects section title)
-
-
 An Android application build for Software Engineering 1 as a group project. Features a responsive user interface with J-Unit testing and a HSQL backend. 
 
 # Experience Section
