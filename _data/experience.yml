@@ -19,19 +19,19 @@
   quote: >
     A global leader in EdTech, D2L is the creator of Brightspace, the world’s first integrated learning platform.
   description: | # this will include new lines to allow paragraphs
-    Implemented various user interfaces of data visualizations and dashboards for Brightspace Data Platform by using JavaScript, Node.js and Git
-    Built a CD pipeline and improved a CI pipeline by using CircleCI and AWS (L3, Lambda)
-    Created RESTful APIs for authors configuration with Postman, Node.js and AWS (Dynamo, API Gateway)
+    - Implemented various user interfaces of data visualizations and dashboards for Brightspace Data Platform by using JavaScript, Node.js and Git
+    - Built a CD pipeline and improved a CI pipeline by using CircleCI and AWS (L3, Lambda)
+    - Created RESTful APIs for authors configuration with Postman, Node.js and AWS (Dynamo, API Gateway)
 
 - layout: left
   company: Johnston Group
-  link: https://www.d2l.com/
+  link: https://johnstongroup.ca/
   job_title: Software Developer, Co-op Term I
   dates: January - April 2020
   quote: >
     One of Canada's Leading Group Insurance Administrator, administer $500 million in premiums.
   description: | # this will include new lines to allow paragraphs
-    Implemented direct printing features to enhance the printing process by 50%
-    Improved an existing search function by refactoring API and services, found and fixed existing bad test data by using Java with Spring Boot, RESTful API and SQL
-    Refactored and enhanced earnings changes processing by using Java with Spring Boot, JUnit and Mockito in testing
+    - Implemented direct printing features to enhance the printing process by 50%
+    - Improved an existing search function by refactoring API and services, found and fixed existing bad test data by using Java with Spring Boot, RESTful API and SQL
+    - Refactored and enhanced earnings changes processing by using Java with Spring Boot, JUnit and Mockito in testing
     Improved UI, such as keeping search criteria in the same session, having focus on a field when page is loaded, creating printer-friendly page with CSS, etc.
