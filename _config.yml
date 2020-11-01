@@ -47,11 +47,16 @@ linkedin_username: rachel-z-185362bb
 about_profile_image: RenderedImage.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Rachel. I graduate from University of Manitoba with BSc. of Computer Science degree. My interest is software development including both front-end
-  and back-end development.
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
+  and back-end development. Here is my skill set.
+  
+| Programming Languages    | Technical Services | Testing/ Frameworks |
+| ----------- | ----------- | ----------- |
+| Java											| Git       				| JUnit |
+| Python | RESTful API       | Mockito |
+| JavaScript    |    NGINX     | SpringBoot |
+|  SQL   |  Node.js      | CircleCI |
+| C/C++ | AWS | |
+| Ruby | | |
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
