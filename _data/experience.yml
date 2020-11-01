@@ -34,4 +34,4 @@
     - Implemented direct printing features to enhance the printing process by 50%
     - Improved an existing search function by refactoring API and services, found and fixed existing bad test data by using Java with Spring Boot, RESTful API and SQL
     - Refactored and enhanced earnings changes processing by using Java with Spring Boot, JUnit and Mockito in testing
-    Improved UI, such as keeping search criteria in the same session, having focus on a field when page is loaded, creating printer-friendly page with CSS, etc.
+    - Improved UI, such as keeping search criteria in the same session, having focus on a field when page is loaded, creating printer-friendly page with CSS, etc.
