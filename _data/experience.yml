@@ -1,10 +1,37 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: D2L
+  link: https://www.d2l.com/
+  job_title: Software Developer, Co-op Term III
+  dates: May - Auguest 2020
   quote: >
-   Short description of the company (optional)
+    A global leader in EdTech, D2L is the creator of Brightspace, the world’s first integrated learning platform.
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    Compiled a list of all validation and translation errors when constructing D2L defined CSV files
+    Build the backend of a CSV validator to validate clients’ uploaded CSV files only, without having to create student information on the system by using Node.js, AWS services (Lambda, Step Functions, Dynamo)
+    Created a feature flag for the CSV validator to support internal or external uses
+
+- layout: left
+  company: D2L
+  link: https://www.d2l.com/
+  job_title: Software Developer, Co-op Term II
+  dates: September - November 2020
+  quote: >
+    A global leader in EdTech, D2L is the creator of Brightspace, the world’s first integrated learning platform.
+  description: | # this will include new lines to allow paragraphs
+    Implemented various user interfaces of data visualizations and dashboards for Brightspace Data Platform by using JavaScript, Node.js and Git
+    Built a CD pipeline and improved a CI pipeline by using CircleCI and AWS (L3, Lambda)
+    Created RESTful APIs for authors configuration with Postman, Node.js and AWS (Dynamo, API Gateway)
+
+- layout: left
+  company: Johnston Group
+  link: https://www.d2l.com/
+  job_title: Software Developer, Co-op Term I
+  dates: January - April 2020
+  quote: >
+    One of Canada's Leading Group Insurance Administrator, administer $500 million in premiums.
+  description: | # this will include new lines to allow paragraphs
+    Implemented direct printing features to enhance the printing process by 50%
+    Improved an existing search function by refactoring API and services, found and fixed existing bad test data by using Java with Spring Boot, RESTful API and SQL
+    Refactored and enhanced earnings changes processing by using Java with Spring Boot, JUnit and Mockito in testing
+    Improved UI, such as keeping search criteria in the same session, having focus on a field when page is loaded, creating printer-friendly page with CSS, etc.
