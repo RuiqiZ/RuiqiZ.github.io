@@ -49,10 +49,9 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Rachel. I graduate from University of Manitoba with BSc. of Computer Science degree. My interest is software development including both front-end
   and back-end development. Here is my skill set.
   
-  | Syntax      | Description |
-  | ----------- | ----------- |
-  | Header      | Title       |
-  | Paragraph   | Text        |
+  - Programming Languages: Java, Python, JavaScript, SQL, C/C++, Ruby
+  - Technical Services: Git, RESTful API, NGINX, Node.JS, AWS
+  - Testing/ Frameworks: JUnit, Mockito, SpringBoot, CircleCI
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
