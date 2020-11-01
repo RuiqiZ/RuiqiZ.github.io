@@ -7,9 +7,9 @@
   quote: >
     A global leader in EdTech, D2L is the creator of Brightspace, the world’s first integrated learning platform.
   description: | # this will include new lines to allow paragraphs
-    Compiled a list of all validation and translation errors when constructing D2L defined CSV files
-    Build the backend of a CSV validator to validate clients’ uploaded CSV files only, without having to create student information on the system by using Node.js, AWS services (Lambda, Step Functions, Dynamo)
-    Created a feature flag for the CSV validator to support internal or external uses
+    - Compiled a list of all validation and translation errors when constructing D2L defined CSV files
+    - Build the backend of a CSV validator to validate clients’ uploaded CSV files only, without having to create student information on the system by using Node.js, AWS services (Lambda, Step Functions, Dynamo)
+    - Created a feature flag for the CSV validator to support internal or external uses
 
 - layout: left
   company: D2L
