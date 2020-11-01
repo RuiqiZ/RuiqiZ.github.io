@@ -5,27 +5,27 @@ repository: Git repository where your resume will be hosted, only required if yo
 # Personal info
 name: Rachel Zeng
 title: Software Developer
-# email: Your email (optional)
-# phone: Your phone number (optional)
-# website: Your website (eg. https://google.com)(optional)
+email: Your email (optional)
+phone: Your phone number (optional)
+website: Your website (eg. https://google.com)(optional)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: jekyllrb
-# github_username:  jekyll
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-linkedin_username: www.linkedin.com/in/rachel-z-185362bb/
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+twitter_username: jekyllrb
+github_username:  jekyll
+stackoverflow_username: "00000001"
+dribbble_username: jekyll
+facebook_username: jekyll
+flickr_username: jekyll
+instagram_username: jekyll
+linkedin_username: jekyll
+xing_username: jekyll
+pinterest_username: jekyll
+youtube_username: jekyll
+googleplus_username: +jekyll
+orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
@@ -46,18 +46,15 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Rachel and I am a software developer with BSc. Computer Science. I did three co-ops working terms, which gives me lots of exposure to software industries.
-  I am interested in software development, both front-end and back-end.
-
+  Hi, my name is Rachel. I am a software developer.
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
   You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
     - Lists
     - Tables
     - <a href="google.com">Links</a>
     - Images
-
 # Projects Section
-projects_title: MoneySaving App #(Use this to override about projects section title)
-An Android application build for Software Engineering 1 as a group project. Features a responsive user interface with J-Unit testing and a HSQL backend. 
+# projects_title: Projects #(Use this to override about projects section title)
 
 # Experience Section
 # experience_title: Experience #(Use this to override about experience section title)
@@ -69,9 +66,7 @@ An Android application build for Software Engineering 1 as a group project. Feat
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
 # Footer
 footer_show_references: true
 
