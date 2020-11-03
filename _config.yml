@@ -46,7 +46,7 @@ linkedin_username: rachel-z-185362bb
 # about_title: About Me (Use this to override about section title)
 about_profile_image: RenderedImage.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Rachel. I graduate from University of Manitoba with BSc. of Computer Science degree. My interest is software development including both front-end
+  Hi, my name is Rachel. I will be graduating from University of Manitoba in December 2020 with BSc. of Computer Science degree. My interest is software development including both front-end
   and back-end development. Here is my skill set.
   
   - Programming Languages: Java, Python, JavaScript, SQL, C/C++, Ruby
