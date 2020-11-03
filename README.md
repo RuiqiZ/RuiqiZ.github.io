@@ -18,8 +18,8 @@ The purpose of this project is to provide the basic guidelines on how to host an
 These instructions will guide you to start hosting a resume on Github Pages with different technical tools, and explain how to apply modern technical writing.
 
 ## Prerequisities
-- A Github account
-- A resume formatted in Markdown
+- A [Github](https://github.com/) account
+- A resume formatted in [Markdown](https://www.markdowntutorial.com/)
 
 ## Instructions
 ### 1. Create a Github repository	
