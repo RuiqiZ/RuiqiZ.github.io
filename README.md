@@ -1,163 +1,87 @@
-# modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) [![Build Status](https://travis-ci.com/sproogen/modern-resume-theme.svg?branch=master)](https://travis-ci.com/sproogen/modern-resume-theme)
+# How to Host Your Resume on Github
 
-*A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*
-*Host your own resume on GitHub for **free!***
 
-Now includes **Dark Mode**
+The purpose of this project is to provide the basic guidelines on how to host and format a resume on Github Pages using Markdown, a Markdown editor, Github Pages, and Jekyll. The steps are explained in a way to relate to the general principles of Modern Technical Writing from Andrew Etter. A demo is also provided with my own resume as an example.
 
-[View Demo](https://sproogen.github.io/modern-resume-theme/)
+[View Demo](https://ruiqiz.github.io)
 
-![img](screenshot.png)
+![img](_image/demo.gif)
 
-*Thank you for checking out my resume theme / template. If you have any feedback or suggestions for things I can add please let me know by either by raising an [issue](https://github.com/sproogen/modern-resume-theme/issues/new/choose) or feel free to send me an email to [sprog31@gmail.com](mailto:sprog31@gmail.com), I'm always happy to help.*
+### Table of Contents
+- [Getting Started](#getting-started)
+- [Prerequisities](#prerequisities)
+- [Instructions](#instructions)
+- [Authors and Acknowledgements](#authors-and-acknowledgements)
+- [FAQ](#faq)
 
-*I always enjoy seeing how people are using my creations and if you would like to say thanks feel free to [buy me a coffee (buymeacoffee.com/vJ6HfLu)](https://buymeacoff.ee/vJ6HfLu).*
+### Getting Started
+These instructions will guide you to start hosting a resume on Github Pages with different technical tools, and explain how to apply modern technical writing.
 
-*If you would like to see how I am using this then you can view my resume [here (jameswgrant.co.uk)](http://www.jameswgrant.co.uk/) and find the code [here (sproogen/jameswgrant)](https://github.com/sproogen/jameswgrant), hopefully this might help you.*
+### Prerequisities
+- A Github account
+- A resume formatted in Markdown
 
-You can view the project [roadmap here](https://github.com/sproogen/modern-resume-theme/projects/1).
+## Instructions
+### 1. Create a Github repository	
+- Sign in to your [Github](https://github.com/login) account
+- Click `New` in `Repositories`
+- Give `Repository name` as `<username>.github.io`
+- Check off `Add a README file` in `Initialize this repository with` section at the bottom
+- Leave all other options by default
+- Click `Create repository`
 
-## Installation & setup guide
-This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
+Now you have created a public repository on Github! Github provides flexibility and easiness of creating repository, common options, adding resources. A repository is the place where you put all of the resources for a project to run, including code, design, readme, etc. The idea behind Github repository is the distributed version control, which allows developers to work on the same repository at the same time, without affecting each other’s work. You can either clone the repository and work offline, or work directly online on your own version. This reduces the risk of accidentally modifying the original version. All these great features of distributed version control encourage developers to contribute together.
 
-Before starting it might be useful to familiarise yourself with [Jekyll](https://jekyllrb.com/docs/home/), [Markdown](https://www.markdownguide.org/getting-started) and [GitHub pages](https://pages.github.com/).
+### 2. Create a Github Page
+- Click `Settings` in the repository you just created on the top bar
+- Go to `GitHub Pages`
+- Select Branch under Source (eg. `main`)
+- Select a theme by clicking `Choose a theme`
 
-##### Step 1 - GitHub
-Start by creating an account on [GitHub](https://github.com/join)
+Congratulations! You just successfully created a Github Page! Now let us go to your page `<username>.github.io`. It might take a minute or two to build the page.
 
-##### Step 2 - Create Repository
-Create a repository on GitHub to hold your files and host your resume. You can find out how to do that [here](https://pages.github.com/)
+Github Pages is designed to host your website page from the Github repository and it's static! A static website is the simplest website you can imagine because it has no server-side application dependencies, no databases, no installations. All it has is a server page, so we can easily create and move the entire site without any crashes. Basically, you can host a static website anywhere.
 
-##### Step 3 - Download Resume Template
-Download and extract the following zip into the git repository you have just created. [resume-template.zip](https://github.com/sproogen/modern-resume-theme/archive/gh-pages.zip)
+In order to host a resume, we need to do it slightly complex. We need to have a static site generator (Jekyll). The generator needs two things, content (written in markdown) and a theme (_config.yml). Every time we edit the content or the theme, the generator processes contents and a theme to the working website.  
 
-##### Step 4 - Push it
-Commit and push the resume template to github
-```
-$ git add --all
-$ git commit -m "Initial resume setup"
-$ git push -u origin master
-```
-##### Set 5 - See it
-You should now be able to see the demo resume template using this theme at `[your-username].github.io`
+### 3. Customize your page settings
+- Click the `_config.yml` file
+- Click the pensile icon on the top right corner of the code section to start editing
+- Select the branch you want to make changes to
+- Click `Save`
 
-## Usage
+Github provides different theme templates to use if you don’t want to create a theme from scratch, which is friendly for beginners. When the theme is created, you will notice a `_config.yml` file is also created to the same repository. This yml config file contains different custom settings to the theme. (a link to an example of yml configs). Once all changes are committed to the branch, the generator will re-build the page.
 
-So now you will be able to see the demo template at your github url. You can can edit the yml files and replace the demo content with your own. Hopefully it will be fairly simple to work out where all the content goes, but here is a quick overview.
+### 4. Put resume into your page
+- Click the `README.md` file
+- Click the pensile icon to start editing
+- Select the branch you want to make changes to
+- Click `Save`
 
-##### _config.yml
-This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It will also allow you to change the titles of some of the content sections.
-A full example of the _config.yml can be found [here](https://github.com/sproogen/modern-resume-theme/blob/master/_config.yml)
+Jekyll renders Markdown format, so you can copy and paste your Markdown formatted resume to `README.md`
 
-##### Dark Mode
-Dark mode is configured via _config.yml 
-```
-darkmode: true (options: true, false, never)
-```
-When dark mode is `true` the site will show the dark theme for everyone  
-When dark mode is `false` the site will not show the dark theme, but it will still respect the users device preferences  
-When dark mode is `never` the site will never be shown in the dark theme
+You probably wonder why we are using Markdown. Markdown is the most popular lightweight markup language in the world. Compare to other common web application languages, for example, HTML, XML, JavaScript, Markdown requires the least amount of time to learn. Markdown also has the cleanest syntax to help format plain text. This gets rid of the hassles to click multiple buttons to try different styles of formatting compared to traditional editing tools, like MS Word. As a developer, we should spend the most of our time on writing code, not fighting with different languages and tools on writing a README document. As for Markdown editors,
+I personally use Visual Studio Code for all coding needs. You can download a markdown extension that gives you the side view, which allows you to preview the result in the side view panel while editing the markdown file.
 
-##### _data/education.yml
-A list of all your education, each education will follow this format
-```
-- layout: left (options: left, right, top, top-right, top-middle)
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Short institution or course description (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of qualification
-```
 
-##### _data/experience.yml
-A list of all your experience, each experience will follow this format
-```
-- layout: left (options: left, right, top, top-right, top-middle)
-  company: Company name
-  link: Link to company (eg. https://google.com)(optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of role
-```
 
-If you wish to specify multiple job titles for a single company, use this format
-```
-- layout: left (options: left, right, top, top-right, top-middle)
-  company: Company name
-  link: Link to company (optional)
-  jobs:
-    - title: Job title 1
-      dates: Date Range (eg. November 2016 - present)
-    - title: Job title 2
-      dates: Date Range (eg. January 2015 - November 2016)
-  quote: >
-   Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of role
-```
+### 5. More resources
+Congratulations! Your resume is online! Here are more resoureces you might need.
+- [Markdown tutorial](https://www.markdowntutorial.com/)
+- Andrew Etter’s book [*Modern Technical Writing*](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+- [Example of _config.yml settings](https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml)
 
-##### _data/projects.yml
-A list of all your projects, each project will follow this format
-```
-- layout: left (options: left, right, top, top-right, top-middle)
-  name: Project name
-  link: Link to project (eg. https://sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
-```
+## Authors and Acknowledgements
+- The resume template is provided by [sproogen/modern-resume-theme](https://github.com/sproogen/modern-resume-theme)
+- Please see the list of authors [here](https://github.com/RuiqiZ/RuiqiZ.github.io/pulse)
 
-##### assets/main.scss
-Add any css changes or additions you want to make here after the line `@import 'modern-resume-theme';`
+## FAQ
+**Why is Markdown better than a word processor?**
+Markdown formats plain text with a clean syntax without having to click multiple buttons to format text in different styles compared to a word processor.
 
-## Running locally
+**How to add new contents to my Github Pages?**
+Please see [Adding content to your GitHub Pages site using Jekyll](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/adding-content-to-your-github-pages-site-using-jekyll)
 
-Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
 
-1. Clone your resume repository locally *(if you haven't already)*
-2. `cd [your-repository-name]`
-3. `bundle install`
-4. `bundle exec jekyll serve`
-5. Open your browser to `http://localhost:4000`
-
-Any changes you make will automatically build and you will be able to see these by refreshing your browser.
-
-*Note: You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/sproogen/modern-resume-theme. You can view our full guide to contributing [here](https://github.com/sproogen/modern-resume-theme/blob/master/CONTRIBUTING.md)
-This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-### Locally
-
-Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
-
-*Note: You will need version `1.15.2` of bundler, as this is the only version that Heroku supports.*
-
-1. Fork and or clone this repository locally
-2. `cd modern-resume-theme`
-3. `bundle install`
-4. `bundle exec jekyll serve`
-5. Open your browser to `http://localhost:4000`
-
-Any changes you make will automatically build and you will be able to see these by refreshing your browser. To find out more about *Jekyll* take a look [here](https://jekyllrb.com/docs/usage/).
-
-*Note: You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
-
-### Docker
-
-If you have docker installed you can simply run `docker-compose up` to launch the site in a container, it will then be hosted at `http://localhost:4000`
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+**Why is my resume not showing up?**
+Be sure to use the same Github username for `<username>.githhub.io`, otherwise the page will not work
