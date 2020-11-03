@@ -14,10 +14,10 @@ The purpose of this project is to provide the basic guidelines on how to host an
 - [Authors and Acknowledgements](#authors-and-acknowledgements)
 - [FAQ](#faq)
 
-### Getting Started
+## Getting Started
 These instructions will guide you to start hosting a resume on Github Pages with different technical tools, and explain how to apply modern technical writing.
 
-### Prerequisities
+## Prerequisities
 - A Github account
 - A resume formatted in Markdown
 
@@ -76,12 +76,11 @@ Congratulations! Your resume is online! Here are more resoureces you might need.
 - Please see the list of authors [here](https://github.com/RuiqiZ/RuiqiZ.github.io/pulse)
 
 ## FAQ
-**Why is Markdown better than a word processor?**
+**Why is Markdown better than a word processor?**\
 Markdown formats plain text with a clean syntax without having to click multiple buttons to format text in different styles compared to a word processor.
 
-**How to add new contents to my Github Pages?**
+**How to add new contents to my Github Pages?**\
 Please see [Adding content to your GitHub Pages site using Jekyll](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/adding-content-to-your-github-pages-site-using-jekyll)
 
-
-**Why is my resume not showing up?**
+**Why is my resume not showing up?**\
 Be sure to use the same Github username for `<username>.githhub.io`, otherwise the page will not work
