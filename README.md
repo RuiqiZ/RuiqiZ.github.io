@@ -1,6 +1,6 @@
 # How to Host Your Resume on Github
 
-The purpose of this project is to provide the basic guidelines on how to host and format a resume on Github Pages using Markdown, a Markdown editor, Github Pages, and Jekyll. The steps are explained in a way to relate to the general principles of Modern Technical Writing from Andrew Etter. A demo is also provided with my own resume as an example.
+The purpose of this project is to provide the basic guidelines on how to host and format a resume on Github Pages using Markdown, a Markdown editor, Github Pages, and Jekyll. The steps are explained in a way to relate to the general principles of *Modern Technical Writing* from Andrew Etter. A demo is also provided with my own resume as an example.
 
 [View Demo](https://ruiqiz.github.io)
 
@@ -22,6 +22,8 @@ These instructions will guide you to start hosting a resume on Github Pages with
 - A resume formatted in [Markdown](https://www.markdowntutorial.com/)
 
 ## Instructions
+Before we go into the instructions, let's clarify some questions. Why are we using Github? Github provides flexibility and easiness of creating repository, common options, adding resources. What is a repository? A repository is the place where you put all of the resources for a project to run, including code, design, readme, etc.
+
 ### Step 1. Create a Github Repository	
 1. Sign in to your [Github](https://github.com/login) account
 2. Click `New` in `Repositories`
@@ -30,7 +32,7 @@ These instructions will guide you to start hosting a resume on Github Pages with
 5. Leave all other options by default
 6. Click `Create repository`
 
-Now you have created a public repository on Github! Why are we using Github? Github provides flexibility and easiness of creating repository, common options, adding resources. A repository is the place where you put all of the resources for a project to run, including code, design, readme, etc. The idea behind Github repository is the distributed version control, which allows developers to work on the same repository at the same time, without affecting each other’s work. Etter talks about distributed version control in his book by saying
+Now you have created a public repository on Github! The idea behind Github repository is the distributed version control, which allows developers to work on the same repository at the same time, without affecting each other’s work. Etter talks about distributed version control in his book by saying
 
 > Version control systems are designed for software development, each and every one of them is overkill for the typical documentation workflow
 
