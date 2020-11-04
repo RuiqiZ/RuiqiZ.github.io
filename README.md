@@ -19,7 +19,7 @@ These instructions will guide you to start hosting a resume on Github Pages with
 
 ## Prerequisities
 - A [Github](https://github.com/) account
-- A resume formatted in [Markdown](https://www.markdowntutorial.com/)
+- A resume formatted in Markdown. Please see [More Resources](#more-resources) to find a Markdown tutorial
 
 ## Instructions
 Before we go into the instructions, let's clarify some questions. Why are we using Github? Github provides flexibility and easiness of creating repository, common options, adding resources. What is a repository? A repository is the place where you put all of the resources for a project to run, including code, design, readme, etc.
@@ -48,7 +48,7 @@ Congratulations! You just successfully created a Github Page! Now let us go to y
 
 Github Pages is designed to host your website page from the Github repository and it's static! A static website is the simplest website you can imagine because it has no server-side application dependencies, no databases, no installations. All it has is a server page, so we can easily create and move the entire site without any crashes. Basically, you can host a static website anywhere.
 
-In order to host a resume, we need to do it slightly complex. We need to have a static site generator (Jekyll). The generator needs two things, content (written in markdown) and a theme (_config.yml). Every time we edit the content or the theme, the generator processes contents and a theme to the working website.  
+In order to host a resume, we need to do it slightly complex. We need to have a static site generator (Jekyll). The generator needs two things, contents (written in markdown) and a theme (_config.yml). Every time we edit the contents or the theme, the generator processes them to the working website.
 
 ### Step 3. Customize your page settings
 1. Click the `_config.yml` file
@@ -56,7 +56,7 @@ In order to host a resume, we need to do it slightly complex. We need to have a 
 3. Select the branch you want to make changes to
 4. Click `Save`
 
-Github provides different theme templates to use if you don’t want to create a theme from scratch, which is friendly for beginners. When the theme is created, you will notice a `_config.yml` file is also created to the same repository. This yml config file contains different custom settings to the theme. (a link to an example of yml configs). Once all changes are committed to the branch, the generator will re-build the page.
+Github provides different theme templates if you don’t want to create a theme from scratch, which is friendly for beginners. When the theme is created, you will notice a `_config.yml` file is also created to the same repository. This yml config file contains different custom settings to the theme. Please see [More Resources](#more-resources) to find examples of custom settings. Once all changes are pushed to the branch, the generator will re-build the page.
 
 ### Step 4. Put resume into your page
 1. Click the `README.md` file
@@ -67,8 +67,8 @@ Github provides different theme templates to use if you don’t want to create a
 
 Jekyll renders Markdown format, so you can copy and paste your Markdown formatted resume to `index.md`
 
-You probably wonder why we are using Markdown. Markdown is the most popular lightweight markup language in the world. Compare to other common web application languages, for example, HTML, XML, JavaScript, Markdown requires the least amount of time to learn. Markdown also has the cleanest syntax to help format plain text. This gets rid of the hassles to click multiple buttons to try different styles of formatting compared to traditional editing tools, like MS Word. As a developer, we should spend the most of our time on writing code, not fighting with different languages and tools on writing a README document. As for Markdown editors,
-I personally use Visual Studio Code for all coding needs. You can download a markdown extension that gives you the side view, which allows you to preview the result in the side view panel while editing the markdown file.
+You probably wonder why we are using Markdown. Markdown is the most popular lightweight markup language in the world. Compare to other common web application languages, for example, HTML, XML, and JavaScript, Markdown requires the least amount of time to learn. Markdown also has the cleanest syntax to help format plain text. This gets rid of the hassles to click multiple buttons to try different styles of formatting compared to traditional editing tools, like MS Word. Etter states in the book that we should spend the most of our time on writing code, not fighting with different languages and tools on writing a document. As for Markdown editors,
+I use Visual Studio Code for all coding needs. You can download a markdown extension that gives the side view, which allows you to preview the result in the side view panel while editing the markdown file.
 
 
 
