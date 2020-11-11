@@ -7,23 +7,18 @@ The purpose of this project is to provide the basic guidelines on how to host an
 ![img](_image/demo.gif)
 
 ### Table of Contents
-- [Getting Started](#getting-started)
 - [Prerequisities](#prerequisities)
 - [Instructions](#instructions)
 - [More Resources](#more-resources)
 - [Authors and Acknowledgements](#authors-and-acknowledgements)
 - [FAQ](#faq)
 
-## Getting Started
-These instructions will guide you to start hosting a resume on Github Pages with different technical tools, and explain how to apply modern technical writing.
-
 ## Prerequisities
 - A [Github](https://github.com/) account
 - A resume formatted in Markdown. Please see [More Resources](#more-resources) to find a Markdown tutorial
+Before we go into the instructions, let's clarify some questions. Why are we using Github? Github provides flexibility and ease of creating repository, common options, adding resources. What is a repository? A repository is the place where you put all of the resources for a project to run, including code, design, readme, etc.
 
 ## Instructions
-Before we go into the instructions, let's clarify some questions. Why are we using Github? Github provides flexibility and easiness of creating repository, common options, adding resources. What is a repository? A repository is the place where you put all of the resources for a project to run, including code, design, readme, etc.
-
 ### Step 1. Create a Github Repository	
 1. Sign in to your [Github](https://github.com/login) account
 2. Click `New` in `Repositories`
@@ -69,8 +64,6 @@ Jekyll renders Markdown format, so you can copy and paste your Markdown formatte
 
 You probably wonder why we are using Markdown. Markdown is the most popular lightweight markup language in the world. Compare to other common web application languages, for example, HTML, XML, and JavaScript, Markdown requires the least amount of time to learn. Markdown also has the cleanest syntax to help format plain text. This gets rid of the hassles to click multiple buttons to try different styles of formatting compared to traditional editing tools, like MS Word. Etter states in the book that we should spend the most of our time on writing code, not fighting with different languages and tools on writing a document. As for Markdown editors,
 I use Visual Studio Code for all coding needs. You can download a markdown extension that gives the side view, which allows you to preview the result in the side view panel while editing the markdown file.
-
-
 
 ## More Resources
 Congratulations! Your resume is online! Here are more resoureces you might need.
