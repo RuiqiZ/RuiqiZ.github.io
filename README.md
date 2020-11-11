@@ -15,7 +15,7 @@ The purpose of this project is to provide the basic guidelines on how to host an
 
 ## Prerequisities
 - A [Github](https://github.com/) account
-- A resume formatted in Markdown. Please see [More Resources](#more-resources) to find a Markdown tutorial
+- A resume formatted in Markdown. Please see [More Resources](#more-resources) to find a Markdown tutorial\
 Before we go into the instructions, let's clarify some questions. Why are we using Github? Github provides flexibility and ease of creating repository, common options, adding resources. What is a repository? A repository is the place where you put all of the resources for a project to run, including code, design, readme, etc.
 
 ## Instructions
@@ -27,11 +27,7 @@ Before we go into the instructions, let's clarify some questions. Why are we usi
 5. Leave all other options by default
 6. Click `Create repository`
 
-Now you have created a public repository on Github! The idea behind Github repository is the distributed version control, which allows developers to work on the same repository at the same time, without affecting each other’s work. Etter talks about distributed version control in his book by saying
-
-> Version control systems are designed for software development, each and every one of them is overkill for the typical documentation workflow
-
-You can either clone the repository and work offline, or work directly online on your own version. This reduces the risk of accidentally modifying the original version. All these great features of distributed version control encourage developers to contribute together.
+Now you have created a public repository on Github! The idea behind Github repository is the distributed version control, which allows developers to work on the same repository at the same time, without affecting each other’s work. You can either clone the repository and work offline, or work directly online on your own version. This reduces the risk of accidentally modifying the original version. All these great features of distributed version control encourage developers to contribute together.
 
 ### Step 2. Create a Github Page
 1. Click `Settings` in the repository you just created on the top bar
